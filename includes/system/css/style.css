@@ -2,6 +2,16 @@
   box-sizing: border-box;
 }
 
+:root {
+  --blau: #006dec;
+  --hell-blau: #00a0ff;
+  --gelb: #ff0;
+  --dunkel-gelb: #ffc;
+  --schwarz: #000;
+  --hell-gruen: #c2fe84;
+  --hover-farbe: var(--dunkel-gelb);
+}
+
 body {
   font-family: Arial;
   padding: 10px;
@@ -12,7 +22,7 @@ body {
 /* Header/Blog Title */
 header {
   padding: 1.875rem;
-  background-color: #ff0;
+  background-color: var(--gelb);
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -22,7 +32,7 @@ header {
 
 header h1 {
   font-size: 3.125rem;
-  color: #006dec;
+  color: var(--blau);
   margin: 0;
 }
 
@@ -36,20 +46,20 @@ nav {
   min-height: 50px;
   position: sticky;
   top: 0;
-  background-color: #ff0;
+  background-color: var(--gelb);
 }
 
 nav a {
   display: block;
-  color: #006dec;
+  color: var(--blau);
   text-align: left;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 nav a:hover {
-  background-color: #c2fe84;
-  color: black;
+  background-color: var(--hover-farbe);
+  color: var(--schwarz);
 }
 
 .dropdown {
@@ -61,8 +71,8 @@ nav a:hover {
 }
 
 .dropbtn {
-  background-color: #ff0;
-  color: #006dec;
+  background-color: var(--gelb);
+  color: var(--blau);
   padding: 14px;
   font-size: 1rem;
   border: none;
@@ -77,7 +87,7 @@ nav a:hover {
   position: absolute;
   right: 0;
   width: 150px;
-  background-color: #c2fe84;
+  background-color:  var(--hover-farbe);
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
@@ -92,7 +102,7 @@ nav a:hover {
 }
 
 .dropdown-content a:hover {
-  background-color: #ff0;
+  background-color: var(--gelb);
 }
 
 .dropdown:hover .dropdown-content {
@@ -100,7 +110,7 @@ nav a:hover {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #c2fe84;
+  background-color: var(--hover-farbe);
 }
 
 /*mobile navi*/
@@ -119,7 +129,7 @@ nav a:hover {
 footer {
   padding: 20px;
   text-align: left;
-  background: #ffff00;
+  background: var(--gelb);
   margin-top: 20px;
   text-align: center;
   font-size: 1.1rem;
@@ -131,7 +141,7 @@ footer a {
 }
 
 footer .copyright {
-  color: #006dec;
+  color: var(--blau);
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -153,17 +163,17 @@ footer .copyright {
 .card {
   display: flex;
   flex-direction: column;
-  background-color: #c2fe84;
+  background-color: var(--hell-gruen);
   padding: 20px;
   margin-top: 20px;
 }
 .card a {
-  color: black;
+  color: var(--schwarz);
   text-decoration: none;
 }
 .card a:hover {
-  background-color: #ff0;
-  color: black;
+  background-color: var(--gelb);
+  color: var(--schwarz);
 }
 
 /* Style articles */
@@ -241,12 +251,25 @@ article {
 
 
 #sprung-marke  {
-  color: blue;
+  color: var(--blau);
   text-decoration: underline;
   display: block;
   text-align: left;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+#sprung-marke:hover {
+  color: var(--hell-blau);
 }
 
 #kurzprosa-seite .cover {
   max-width: 400px;
+}
+
+.text-icon {
+  height: 1rem;
+  width: 1rem;
 }

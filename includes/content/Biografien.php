@@ -23,9 +23,7 @@
     <p style="color:#006dec;">Fazit: Dieses Buch kann jedem des Lesens Kundigen Spaß machen!</p>
 
     <p align="left">
-      Danach erschienen vom 9.1 bis zum November 2019 im Hamburger Wochenblatt in mehreren Hamburger Stadtteilen Artikel über
-      <br />
-      "Ohne Hund? Geht gar nicht". Am 27.2.19 gab es sogar zwei Vorstellungen des Buches: im Hamburger Wochenblatt und im Abendblatt.
+      Danach erschienen vom 9.1 bis zum November 2019 im Hamburger Wochenblatt in mehreren Hamburger Stadtteilen Artikel über "Ohne Hund? Geht gar nicht". Am 27.2.19 gab es sogar zwei Vorstellungen des Buches: im Hamburger Wochenblatt und im Abendblatt.
     </p>
     <p align="left"><img src="includes/img/rez111.jpg" width="" height="" /></p>
     <p align="left"><img src="includes/img/rez222.jpg" width="" height="" /></p>

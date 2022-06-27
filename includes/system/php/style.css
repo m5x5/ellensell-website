@@ -1,0 +1,227 @@
+﻿* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+  /*min-width:799px;*/
+}
+
+/* Header/Blog Title */
+header {
+  padding: 1.875rem;
+  background-color: #ff0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 3.125rem;
+  color: #006dec;
+  margin: 0;
+}
+
+header img {
+  object-fit: contain;
+}
+
+/* Navigation bar */
+nav {
+  position: -webkit-sticky;
+  min-height: 50px;
+  position: sticky;
+  top: 0;
+  background-color: #ff0;
+}
+
+nav a {
+  display: block;
+  color: #006dec;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #c2fe84;
+  color: black;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  /*float:right;*/
+  padding: 0;
+  margin: 0;
+}
+
+.dropbtn {
+  background-color: #ff0;
+  color: #006dec;
+  padding: 14px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  float: left;
+  margin: 0;
+  padding: 0px;
+  display: none;
+  position: absolute;
+  right: 0;
+  width: 150px;
+  background-color: #c2fe84;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  text-align: left;
+  width: 100%;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ff0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #c2fe84;
+}
+
+/*mobile navi*/
+.dropdown-mobile_nav-content {
+  opacity: 0;
+  display: flex;
+}
+
+.dropdown-mobile_nav:hover .dropdown-mobile_nav-content {
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: left;
+  background: #ffff00;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer .copyright {
+  color: #006dec;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 50%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 50%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #c2fe84;
+  padding: 20px;
+  margin-top: 20px;
+}
+.card a {
+  color: black;
+  text-decoration: none;
+}
+.card a:hover {
+  background-color: #ff0;
+  color: black;
+}
+
+/* Style articles */
+article {
+  line-height: 1.5;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.desktop_nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.desktop_nav > a {
+  flex-shrink:0;
+}
+
+.mobile_nav {
+  display: none;
+}
+
+.textrahmen {
+  max-width: 700px;
+}
+
+#kurzprosa-seite p {
+  max-width: 70ch;
+}
+
+.two-col-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 2rem;
+}
+
+/* Responsive layout - when the screen is less height than wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	header {
+		flex-direction: column;
+	}
+
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+  .desktop_nav {
+    display: none;
+  }
+  .mobile_nav {
+    display: block;
+    color: #f2f2f2;
+  }
+}

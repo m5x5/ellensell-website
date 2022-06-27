@@ -1,0 +1,8 @@
+AuthUserFile /customers/3/d/2/ellensell.de/httpd.www/private/.htpasswd_protect
+AuthType Basic
+AuthName "Login"
+Require valid-user
+#Rewrite everything to https
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]

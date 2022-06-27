@@ -10,13 +10,14 @@
   --schwarz: #000;
   --hell-gruen: #c2fe84;
   --hover-farbe: var(--dunkel-gelb);
+  font-size: 16px;
 }
 
-body {
+body, html {
   font-family: Arial;
   padding: 10px;
   background: #f1f1f1;
-  /*min-width:799px;*/
+  max-width: 100%;
 }
 
 /* Header/Blog Title */
@@ -244,9 +245,8 @@ article {
   height: 8rem;
 }
 
-#kurzprosa-seite .cover {
+#startseite .cover {
   max-width: 700px;
-
 }
 
 

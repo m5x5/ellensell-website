@@ -3,6 +3,7 @@
     <h2>Am <strong>1. November 2015</strong></h2>
     <p>wurde diese <b>Anthologie</b> vom net-Verlag Maria Weise herausgebracht, u.a. mit meinen Erzählungen &quot;Un final feliz - ein glückliches Ende?&quot; und &quot;Lucy &amp; Dex&quot;.</p>
     <p>Die Anthologie befindet sich bereits in der 3. Auflage und ist auch als eBook ISBN 978-3-95720-124-9 im Handel.</p>
+    <img src="includes/img/kurzprosa/Maedchen_roten_Koffer_Front.jpg" width="400" height="645" />
     <img src="includes/img//09-FERTIG.jpg" width="400" height="645" />
     <img src="includes/img/Rez_A4-1.jpg" width="700" height="1015" />
     <img src="includes/img/Rez_A4-del2.jpg" width="700" height="950" />

@@ -51,6 +51,7 @@ function seiten_name()
     'Lesungen Erwachsene' => 'Lesungen Jugendliche & Erwachsene',
     'Jury Erwachsene' => 'Jury Jugendliche & Erwachsene',
     'Links Erwachsene' => 'Links Jugendliche & Erwachsene',
+    "Praesenz Medien Kinder" => "Präsenz Medien Kinder",
   );
 
   if (isset($_GET['seite'])) { //abfrage ob ein link geklickt wurde

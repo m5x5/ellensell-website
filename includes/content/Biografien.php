@@ -15,7 +15,6 @@
 </article>
 <article class="card">
   <div class="textrahmen">
-    <p align="left"><img src="includes/img/rand/prasenz_medien.JPG" width="" height="" hspace="" /></p>
     <p>Rezension von Gudrun Beck, Züchterin der Fox Lions Collies, zu einem Buch von Ellen Sell.</p>
     <p>Als ich das Rezensionsexemplar erhielt, war ich sofort positiv überrascht von seinem stabilen Hardcover-Einband und den vielen bunten Fotos. Dann überlegte ich mir, wie ein Rot-Grün-Farbenblinder die Titelgestaltung finden würde: “Etwas puristisch, rein grün mit etwas zu dunklem und zu kleinen Foto von einem schönen schwarzen Labby-Pärchen, aber wo ist der Text, der über Titel und Autorin informiert?” Für Normalsehende kontrastreich in Rot gehalten, macht sich die Beschriftung für diese besondere Gruppe von Menschen tatsächlich unsichtbar, da die Graustufen fast identisch sind. Geht gar nicht! Das ist wirklich schade. Auf der Rückseite ist es besser, da die Schrift schwarz ist.</p>
     <p>Der Inhalt dagegen verdient uneingeschränktes Lob. Schon die ersten Zeilen verführen zum Weiterlesen und so bleibt es spannend bis zum Ende des Buches. In leicht verständlichem, guten Deutsch geschrieben, erschließt sich den Lesern (egal welchen Geschlechts) ein langes, ereignisreiches Autorinnenleben. Das Besondere an diesem Buch ist die Schwerpunktsetzung: Beruf, Familie und menschliche Beziehungen geraten in den Hintergrund gegenüber der Beschreibung der Hunde, die sie begleiteten.</p>

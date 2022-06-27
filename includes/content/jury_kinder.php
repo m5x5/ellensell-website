@@ -84,4 +84,3 @@
       (Klasse vier). </p>
   </div>
 </article>
-<p><a href="#">Zurück</a></p>

@@ -25,7 +25,7 @@
     <p>Am 1.5.2016 lasen László´Kova und ich im WASCHHAUS auch aus der neuen Anthologie &quot;Das Mädchen mit dem roten Koffer...&quot;</p>
     <p>Wir waren wieder gut in den Medien vertreten:<br />
       Hamburger Abendblatt Live<br />
-      Lit in Hamburg undmit einem großen Artikel im Hamburger Wochenblatt (Eppendorf, Winterhude und Alsterdorf). </p>
+      Lit in Hamburg und mit einem großen Artikel im Hamburger Wochenblatt (Eppendorf, Winterhude und Alsterdorf). </p>
     <p><br />
       Ich danke allen beteiligten Redaktionen! Das kleine Waschhaus war total gut besucht, alle vorhandenen 32 Stühle besetzt.</p>
     <p align="left"><img src="includes/img/HH-Wochenblatt-apr-16.jpg" width="700" height="1084" /></p>
@@ -97,4 +97,3 @@
     <p>&nbsp;</p>
   </div>
 </article>
-<p><a href="#">Zurück</a></p>

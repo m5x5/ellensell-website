@@ -70,7 +70,7 @@
     <p>&nbsp;</p>
     <p align="left"><img src="includes/img/Les-erw-13-apr-16.jpg" width="500" height="375" hspace="40" /></p>
     <p align="left"><img src="includes/img/musikanter-13-apr-16.jpg" width="537" height="240" hspace="20" /></p>
-    <p>Am 13.4.16 lasen Ginny G. von Bülow, László Kova und ich im Rahmen des Walddörfer Kulturkreises in der Ohlendorff'schen Villa in Hamburg-Volksdorf aus der Anthologie &quot;Das Mädchen mit dem roten Koffer...&quot;. Katharina Hempel und drei ihrer Schüler begleiteten die Lesung auf ihren Gitarren.<br />
+    <p class="textrahmen">Am 13.4.16 lasen Ginny G. von Bülow, László Kova und ich im Rahmen des Walddörfer Kulturkreises in der Ohlendorff'schen Villa in Hamburg-Volksdorf aus der Anthologie &quot;Das Mädchen mit dem roten Koffer...&quot;. Katharina Hempel und drei ihrer Schüler begleiteten die Lesung auf ihren Gitarren.<br />
        <br />
       Siehe auch Medien-Berichte Erwachsene.</p>
     <p>&nbsp;</p>
@@ -124,7 +124,6 @@
     <p>Lesung „Kriegskinder“ im „Kulturhaus Visoko“</p>
     <img src="includes/img/kulturhaus_visoko.jpg" name="Image14" width="310" height="232" hspace="20" id="Image14" />
     <img src="includes/img/ellen_bosn_kinder.jpg" width="310" height="232" />
-    <p>Die <b>Protagonisten</b> aus meiner Geschichte</p>
     <p>Von mir organisierte Lesung in <strong>Hamburg Volksdorf, <br />
         Öffentliche Bücherhalle,</strong> mit den Kolleginnen und <br />
       Kollegen der Hamburger Autorenvereinigung aus <br />
@@ -133,8 +132,7 @@
     <p>&nbsp;</p>
     <p align="left"><img src="includes/img/lesung_kristallnacht.jpg" width="419" height="321" hspace="20" align="left" /></p>
     <p>&nbsp;</p>
-    <p>Lesung zur Erinnerung an die &quot;Reichskristallnacht&quot; am 9. November 2010 <br />
-      in der Krypta der <strong>Nikolaikirche Hamburg</strong></p>
+    <p>Lesung zur Erinnerung an die &quot;Reichskristallnacht&quot;<br /> am 9. November 2010 in der Krypta der <b>Nikolaikirche Hamburg</b></p>
     <p>(Mitglieder der Hamburger Autorenvereinigung und des Verbands <br />
       deutscher Schriftsteller)</p>
     <p>&nbsp;</p>
@@ -142,4 +140,3 @@
     <p align="left">Die Lesung am 21.04.2012, im Brückeneck in Hamburg Barmbek-Nord begleitete die 12-jährige Harfenistin <strong>Swantje Wittenhagen</strong>.</p>
   </div>
 </article>
-<p><a href="#">Zurück</a></p>

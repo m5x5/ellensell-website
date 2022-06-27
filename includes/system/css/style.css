@@ -233,3 +233,11 @@ article {
   width: 8rem;
   height: 8rem;
 }
+
+
+#sprung-marke  {
+  color: blue;
+  text-decoration: underline;
+  display: block;
+  text-align: left;
+}

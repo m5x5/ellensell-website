@@ -75,6 +75,3 @@
       </div>
     </article>
 </div>
-
-
-<p><a href="#">Zurück</a></p>

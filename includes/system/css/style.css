@@ -10,7 +10,6 @@
   --schwarz: #000;
   --hell-gruen: #c2fe84;
   --hover-farbe: var(--dunkel-gelb);
-  font-size: 16px;
 }
 
 body, html {
@@ -43,7 +42,6 @@ header img {
 
 /* Navigation bar */
 nav {
-  position: -webkit-sticky;
   min-height: 50px;
   position: sticky;
   top: 0;
@@ -51,12 +49,12 @@ nav {
 }
 
 nav a {
-  display: block;
+  display: inline-block;
   color: var(--blau);
-  text-align: left;
   padding: 14px 16px;
   text-decoration: none;
 }
+
 
 nav a:hover {
   background-color: var(--hover-farbe);
@@ -189,20 +187,6 @@ article {
   clear: both;
 }
 
-.desktop_nav {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.desktop_nav > a {
-  flex-shrink:0;
-}
-
-.mobile_nav {
-  display: none;
-}
-
 .textrahmen {
   max-width: 700px;
 }
@@ -223,20 +207,24 @@ article {
 		flex-direction: column;
 	}
 
+  header h1 {
+    font-size: 2.0rem;
+  }
+
   .leftcolumn,
   .rightcolumn {
     width: 100%;
     padding: 0;
   }
-  .desktop_nav {
-    display: none;
+
+  nav a {
+    font-size: 0.8rem;
   }
-  .mobile_nav {
-    display: block;
-    color: #f2f2f2;
+
+  .dropbtn {
+    font-size: 0.8rem;
   }
 }
-
 
 /* Startseite */
 #startseite .herz {
@@ -249,8 +237,8 @@ article {
   max-width: 700px;
 }
 
-
-#sprung-marke  {
+/* Komponenten */
+#sprung-marke, #sprung-marke svg  {
   color: var(--blau);
   text-decoration: underline;
   display: block;
@@ -261,10 +249,12 @@ article {
   gap: 0.2rem;
 }
 
+
 #sprung-marke:hover {
   color: var(--hell-blau);
 }
 
+/* Kurzprosa */
 #kurzprosa-seite .cover {
   max-width: 400px;
 }
@@ -272,4 +262,12 @@ article {
 .text-icon {
   height: 1rem;
   width: 1rem;
+}
+
+.cover {
+  max-width: 400px;
+}
+
+img {
+  max-width: 100%;
 }

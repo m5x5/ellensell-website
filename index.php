@@ -27,7 +27,7 @@ session_start();
     <a href="?seite=Aktuelles">Aktuelles</a>
     <div class="dropdown">
       <a class="dropbtn">Kinder</a>
-      <div class="dropdown-content">
+      <div class="dropdown-content from-left">
         <a href="?seite=kinderbuecher">Kinderbücher</a>
         <a href="?seite=projekte_kinder">Projekte</a>
         <a href="?seite=lesungen_kinder">Lesungen</a>
@@ -40,7 +40,7 @@ session_start();
 
     <div class="dropdown">
       <a class="dropbtn">Jugendliche & Erwachsene</a>
-      <div class="dropdown-content">
+      <div class="dropdown-content from-right">
         <a href="?seite=kurzprosa">Kurzprosa</a>
         <a href="?seite=Biografien">Biografien</a>
         <a href="?seite=projekte_erwachsene">Projekte</a>

@@ -91,6 +91,11 @@ nav a:hover {
   z-index: 1;
 }
 
+.dropdown-content.from-left {
+  left: 0;
+  right: unset;
+}
+
 .dropdown-content a {
   text-align: left;
   width: 100%;
@@ -124,6 +129,7 @@ nav a:hover {
   justify-content: center;
   align-items: center;
 }
+
 /* Footer */
 footer {
   padding: 20px;
